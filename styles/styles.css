@@ -10,6 +10,10 @@
 */
 
 /* ----- Basic styling ----- */
+footer {
+  clear:both;
+}
+
 body {
   background-color: light-blue;
 }
@@ -24,7 +28,8 @@ body {
   content: #f7f2da;
   padding: 0em 1em;
   margin-bottom: 10px;
-}
+  float: left;
+  width: 175;
 
 nav {
   color: gray;
@@ -42,3 +47,9 @@ nav li {
 }
 
 
+/*----Left sided nav menue----*/
+
+nav {
+  float: left;
+  width: 175;
+}
