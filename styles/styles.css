@@ -20,7 +20,7 @@ body {
 
 #page-wrapper {
   background-color:#ffffff;
-  width:768px;
+  width:960px;
   margin: auto;
 }
 
@@ -29,7 +29,7 @@ body {
   padding: 0em 1em;
   margin-bottom: 10px;
   float: left;
-  width: 175;
+  width: 625;
 
 nav {
   color: gray;
@@ -47,9 +47,27 @@ nav li {
 }
 
 
-/*----Left sided nav menue----*/
+/*----Three-Column Fixed Layout----*/
+#page-wrapper {
+  width:960px;
+}
 
+#sidebar {
+  float: left;
+  width: 160px;
+}
 nav {
   float: left;
   width: 175;
 }
+
+/*---ad styling---*/
+.wide-skyscaper-ad {
+  width: 160px;
+  height: 600px;
+  background-color: silver;
+  position; relative;
+}
+
+/*---left-sided nav menu---*/
+
