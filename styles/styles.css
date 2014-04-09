@@ -50,27 +50,46 @@ footer {
   background-color: silver;
 }
 
-/*----Three-Column Fixed Layout----*/
-#page-wrapper {
-  width:960px;
+/*---One-Column Mobile Layout---*/
+#fluid-columns, nav, #content, #sidebar {
+  width:100%;
+}
+
+/*----Three-Column Fluid Layout----*/
+
+
+@media all and (min-width: 525px) {
+  /*Two-Column Fluid Layout---*/
+  #page-wrapper {
+  width:100%;
 }
 
 nav {
   float: left;
-  width: 175px;
+  width: 21.875%;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 #content {
   float: left;
-  width: 625px;
+  width: 78.125%;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 #sidebar {
   float:left;
-  width:160px;
+  width:17%;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+@media all and (min-width: 960px) {
+  #page-wrapper {
+  width: 960px;
+}
+
+#fluid-columns {
+  width:800px;
+}
+
